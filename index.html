@@ -12,6 +12,15 @@
   h1 { font-size:34px; line-height:1.3; margin-top:10px; font-weight:800; }
   h1 .sm { font-size:19px; display:block; color:#ffb59d; margin-bottom:4px; letter-spacing:.1em; }
   .tag { margin-top:10px; color:#cfcfcf; font-size:14px; line-height:1.7; }
+  .hero { margin-top:18px; border-radius:16px; overflow:hidden; }
+  .hero img { width:100%; display:block; }
+  .foods { margin-top:14px; }
+  .foods .lbl { color:#ff5a2e; font-size:12px; font-weight:700; letter-spacing:.2em; margin-bottom:8px; }
+  .foods .grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; }
+  .foods figure { border-radius:12px; overflow:hidden; background:#1a1a1a; }
+  .foods img { width:100%; aspect-ratio:1; object-fit:cover; display:block; }
+  .foods figcaption { font-size:11.5px; color:#ddd; padding:7px 8px; line-height:1.5; }
+  .foods figcaption span { color:#a8a8a8; display:block; font-size:11px; }
   .info { margin-top:22px; border:2px solid #ff5a2e; border-radius:16px; padding:16px 18px; }
   .info .lbl { color:#ff5a2e; font-size:12px; font-weight:700; letter-spacing:.2em; }
   .info .row { margin-top:8px; font-size:15px; line-height:1.8; }
@@ -42,10 +51,20 @@
   <h1><span class="sm">炭火焼肉</span>戸田一ホルモン</h1>
   <p class="tag">戸田公園駅徒歩2分。炭火で愉しむ、ホルモン専門店こだわりの焼肉。</p>
 
+  <div class="hero"><img src="hero.jpg" alt="炭火焼肉 戸田一ホルモン"></div>
   <div class="info">
     <div class="lbl">営業時間</div>
     <div class="row"><b>17:00〜22:00</b>（料理・ドリンク L.O. 21:30）</div>
     <div class="note">定休日：月曜日／埼玉県戸田市本町2-15-1／JR埼京線 戸田公園駅 徒歩2分</div>
+  </div>
+
+  <div class="foods">
+    <div class="lbl">おすすめ</div>
+    <div class="grid">
+      <figure><img src="food1.jpg" alt="伊万里牛 焼きしゃぶ"><figcaption>伊万里牛 焼きしゃぶ<span>1,518円（税込）</span></figcaption></figure>
+      <figure><img src="food2.jpg" alt="タンシチュー"><figcaption>大人気のタンシチュー<span>638円（税込）</span></figcaption></figure>
+      <figure><img src="room.jpg" alt="店内の雰囲気"><figcaption>店内の雰囲気<span>貸切もご予約可能</span></figcaption></figure>
+    </div>
   </div>
 
   <div class="review">
